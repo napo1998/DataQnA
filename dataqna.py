@@ -1,4 +1,5 @@
 import streamlit as st
+import transformers
 from transformers import TapexTokenizer, BartForConditionalGeneration
 import pandas as pd
 
